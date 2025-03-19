@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_IMAGE = "gokila07/docker-app:latest"  // Change this to your registry
+        DOCKER_IMAGE = "gokila070/docker-app:latest"  // Change this to your registry
         CONTAINER_NAME = "docker-running-app"
         REGISTRY_CREDENTIALS = "docker.goki"  // Jenkins credentials ID
     }
